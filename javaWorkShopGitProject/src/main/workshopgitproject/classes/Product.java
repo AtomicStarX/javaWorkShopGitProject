@@ -18,7 +18,7 @@ public class Product {
 	/**
 	 * Description of the property suplierID.
 	 */
-	private EString suplierID = null;
+	private String suplierID = null;
 
 	/**
 	 * Description of the property price.
@@ -38,17 +38,17 @@ public class Product {
 	/**
 	 * Description of the property description.
 	 */
-	private EString description = null;
+	private String description = null;
 
 	/**
 	 * Description of the property identifier.
 	 */
-	private EInt identifier = null;
+	private int identifier = 0;
 
 	/**
 	 * Description of the property suplierName.
 	 */
-	private EString suplierName = null;
+	private String suplierName = null;
 
 	// Start of user code (user defined attributes for Product)
 
@@ -70,7 +70,7 @@ public class Product {
 	 * Returns suplierID.
 	 * @return suplierID 
 	 */
-	public EString getSuplierID() {
+	public String getSuplierID() {
 		return this.suplierID;
 	}
 
@@ -78,7 +78,7 @@ public class Product {
 	 * Sets a value to attribute suplierID. 
 	 * @param newSuplierID 
 	 */
-	public void setSuplierID(EString newSuplierID) {
+	public void setSuplierID(String newSuplierID) {
 		this.suplierID = newSuplierID;
 	}
 
@@ -126,7 +126,7 @@ public class Product {
 	 * Returns description.
 	 * @return description 
 	 */
-	public EString getDescription() {
+	public String getDescription() {
 		return this.description;
 	}
 
@@ -134,7 +134,7 @@ public class Product {
 	 * Sets a value to attribute description. 
 	 * @param newDescription 
 	 */
-	public void setDescription(EString newDescription) {
+	public void setDescription(String newDescription) {
 		this.description = newDescription;
 	}
 
@@ -142,7 +142,7 @@ public class Product {
 	 * Returns identifier.
 	 * @return identifier 
 	 */
-	public EInt getIdentifier() {
+	public int getIdentifier() {
 		return this.identifier;
 	}
 
@@ -150,7 +150,7 @@ public class Product {
 	 * Sets a value to attribute identifier. 
 	 * @param newIdentifier 
 	 */
-	public void setIdentifier(EInt newIdentifier) {
+	public void setIdentifier(int newIdentifier) {
 		this.identifier = newIdentifier;
 	}
 
@@ -158,7 +158,7 @@ public class Product {
 	 * Returns suplierName.
 	 * @return suplierName 
 	 */
-	public EString getSuplierName() {
+	public String getSuplierName() {
 		return this.suplierName;
 	}
 
@@ -166,7 +166,7 @@ public class Product {
 	 * Sets a value to attribute suplierName. 
 	 * @param newSuplierName 
 	 */
-	public void setSuplierName(EString newSuplierName) {
+	public void setSuplierName(String newSuplierName) {
 		this.suplierName = newSuplierName;
 	}
 

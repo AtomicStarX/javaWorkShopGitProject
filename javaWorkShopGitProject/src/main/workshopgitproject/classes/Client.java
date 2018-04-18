@@ -18,17 +18,17 @@ public class Client {
 	/**
 	 * Description of the property surname.
 	 */
-	private EString surname = null;
+	private String surname = null;
 
 	/**
 	 * Description of the property province.
 	 */
-	private EString province = null;
+	private String province = null;
 
 	/**
 	 * Description of the property dni.
 	 */
-	private EString dni = null;
+	private String dni = null;
 
 	/**
 	 * Description of the property invoices.
@@ -38,27 +38,27 @@ public class Client {
 	/**
 	 * Description of the property name.
 	 */
-	private EString name = null;
+	private String name = null;
 
 	/**
 	 * Description of the property village.
 	 */
-	private EString village = null;
+	private String village = null;
 
 	/**
 	 * Description of the property streetName.
 	 */
-	private EString streetName = null;
+	private String streetName = null;
 
 	/**
 	 * Description of the property identifier.
 	 */
-	private EInt identifier = null;
-
+	private int identifier = 0;
+	
 	/**
 	 * Description of the property country.
 	 */
-	private EString country = null;
+	private String country = null;
 
 	// Start of user code (user defined attributes for Client)
 
@@ -80,7 +80,7 @@ public class Client {
 	 * Returns surname.
 	 * @return surname 
 	 */
-	public EString getSurname() {
+	public String getSurname() {
 		return this.surname;
 	}
 
@@ -88,7 +88,7 @@ public class Client {
 	 * Sets a value to attribute surname. 
 	 * @param newSurname 
 	 */
-	public void setSurname(EString newSurname) {
+	public void setSurname(String newSurname) {
 		this.surname = newSurname;
 	}
 
@@ -96,7 +96,7 @@ public class Client {
 	 * Returns province.
 	 * @return province 
 	 */
-	public EString getProvince() {
+	public String getProvince() {
 		return this.province;
 	}
 
@@ -104,7 +104,7 @@ public class Client {
 	 * Sets a value to attribute province. 
 	 * @param newProvince 
 	 */
-	public void setProvince(EString newProvince) {
+	public void setProvince(String newProvince) {
 		this.province = newProvince;
 	}
 
@@ -112,7 +112,7 @@ public class Client {
 	 * Returns dni.
 	 * @return dni 
 	 */
-	public EString getDni() {
+	public String getDni() {
 		return this.dni;
 	}
 
@@ -120,7 +120,7 @@ public class Client {
 	 * Sets a value to attribute dni. 
 	 * @param newDni 
 	 */
-	public void setDni(EString newDni) {
+	public void setDni(String newDni) {
 		this.dni = newDni;
 	}
 
@@ -136,7 +136,7 @@ public class Client {
 	 * Returns name.
 	 * @return name 
 	 */
-	public EString getName() {
+	public String getName() {
 		return this.name;
 	}
 
@@ -144,7 +144,7 @@ public class Client {
 	 * Sets a value to attribute name. 
 	 * @param newName 
 	 */
-	public void setName(EString newName) {
+	public void setName(String newName) {
 		this.name = newName;
 	}
 
@@ -152,7 +152,7 @@ public class Client {
 	 * Returns village.
 	 * @return village 
 	 */
-	public EString getVillage() {
+	public String getVillage() {
 		return this.village;
 	}
 
@@ -160,7 +160,7 @@ public class Client {
 	 * Sets a value to attribute village. 
 	 * @param newVillage 
 	 */
-	public void setVillage(EString newVillage) {
+	public void setVillage(String newVillage) {
 		this.village = newVillage;
 	}
 
@@ -168,7 +168,7 @@ public class Client {
 	 * Returns streetName.
 	 * @return streetName 
 	 */
-	public EString getStreetName() {
+	public String getStreetName() {
 		return this.streetName;
 	}
 
@@ -176,7 +176,7 @@ public class Client {
 	 * Sets a value to attribute streetName. 
 	 * @param newStreetName 
 	 */
-	public void setStreetName(EString newStreetName) {
+	public void setStreetName(String newStreetName) {
 		this.streetName = newStreetName;
 	}
 
@@ -184,7 +184,7 @@ public class Client {
 	 * Returns identifier.
 	 * @return identifier 
 	 */
-	public EInt getIdentifier() {
+	public int getIdentifier() {
 		return this.identifier;
 	}
 
@@ -192,7 +192,7 @@ public class Client {
 	 * Sets a value to attribute identifier. 
 	 * @param newIdentifier 
 	 */
-	public void setIdentifier(EInt newIdentifier) {
+	public void setIdentifier(int newIdentifier) {
 		this.identifier = newIdentifier;
 	}
 
@@ -200,7 +200,7 @@ public class Client {
 	 * Returns country.
 	 * @return country 
 	 */
-	public EString getCountry() {
+	public String getCountry() {
 		return this.country;
 	}
 
@@ -208,7 +208,7 @@ public class Client {
 	 * Sets a value to attribute country. 
 	 * @param newCountry 
 	 */
-	public void setCountry(EString newCountry) {
+	public void setCountry(String newCountry) {
 		this.country = newCountry;
 	}
 
